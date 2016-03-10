@@ -5,6 +5,6 @@
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
 * [Using and Sharing Packages](packages/README.md)
-* [Publishing Applications](publishing/README.md)
+* [Publishing](publishing/README.md)
 * Research & Community
 
