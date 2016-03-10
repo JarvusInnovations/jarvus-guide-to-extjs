@@ -1,7 +1,7 @@
 # My Awesome Book
 
-## Why ExtJS?
+## Why Ext JS?
 
-## Learning ExtJS
+## Learning Ext JS
 
 ## Licensing concerns
