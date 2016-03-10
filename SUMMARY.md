@@ -9,5 +9,4 @@
    * [Applications](publishing/applications.md)
    * [Embedded Scripts](publishing/embedded_scripts.md)
 * [Research & Community](research_and_community/README.md)
-   * References
 
