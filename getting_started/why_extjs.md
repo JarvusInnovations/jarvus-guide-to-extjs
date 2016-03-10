@@ -1,2 +1,2 @@
-# getting_started/why_extjs.md
+# Why Ext JS?
 
