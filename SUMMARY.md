@@ -4,6 +4,6 @@
 * [Getting Started](chapter1.md)
 * Building Applications
 * Using and Sharing Packages
-* Publishing
+* Publishing Applications
 * Research & Community
 
