@@ -7,6 +7,6 @@
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
-   * Embedded Scripts
+   * [Embedded Scripts](publishing/embedded_scripts.md)
 * Research & Community
 
