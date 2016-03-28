@@ -1,6 +1,9 @@
 # The Jarvus Guide to Ext JS
 
 ## Why Ext JS?
+- Provides full complement of UI components
+- Provides an effective way to share packages of components with accompanying assets and CSS between projects
+- Enables JS to be developed in a form that is independent of how it ultimately gets loaded
 
 ## Learning Ext JS
 1. Understand the fundamentals of the framework and its documentation
