@@ -6,6 +6,7 @@
 - Enables JS to be developed in a form that is independent of how it ultimately gets loaded
 - Provides universal structure and patterns for UI components that can be arbitrarily extended and reused
 - Provides a mature set of tools and best practices for organizing and maintaining large multi-screen Single-Page Applications
+- Provides a way to style reusable components that can be customized by application-level themes
 
 ## Learning Ext JS
 1. Understand the fundamentals of the framework and its documentation
