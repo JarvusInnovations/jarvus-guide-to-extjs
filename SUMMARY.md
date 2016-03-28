@@ -9,6 +9,7 @@
    * [Route to Every Destination](best_practices/routes.md)
    * [Require Where Instantiation Happens](best_practices/requires.md)
    * [Write Compressable Code](best_practices/compressable_code.md)
+   * Configurable Connections
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
