@@ -10,7 +10,7 @@
    * [Require Where Instantiation Happens](best_practices/requires.md)
    * [Write Compressable Code](best_practices/compressable_code.md)
    * [Configurable Connections](best_practices/connections.md)
-   * Community Hotfixes
+   * [Community Hotfixes](best_practices/community_hotfixes.md)
    * Keep the DOM Inside Components
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
