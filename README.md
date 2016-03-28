@@ -2,7 +2,7 @@
 
 ## Why Ext JS?
 - Provides full complement of extensible UI components
-- Provides an effective way to share packages of components with accompanying assets and CSS between projects
+- Provides an effective packaging system for sharing components with accompanying assets and CSS between projects
 - Enables JS to be developed in a form that is independent of how it ultimately gets loaded
 - Provides universal structure and patterns for UI components that can be arbitrarily extended and reused
 - Provides a mature set of tools and best practices for organizing and maintaining large multi-screen Single-Page Applications
