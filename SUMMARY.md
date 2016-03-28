@@ -6,6 +6,7 @@
    * [Creating an Application](applications/creating.md)
 * [Best Practices](best_practices/README.md)
    * Minimize Causal Chains
+   * Route to Every Destination
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
