@@ -4,7 +4,7 @@
 * [Getting Started](getting_started/README.md)
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
-* Best Practices
+* [Best Practices](best_practices/README.md)
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
