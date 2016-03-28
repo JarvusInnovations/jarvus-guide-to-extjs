@@ -2,6 +2,8 @@
 
 Welcome to the Jarvus Guide to Ext JS! This book is a work-in-progress and is intended to provide a living guide to Jarvus Innovation's evolving best practices in building and maintaining large Ext JS projects.
 
+This book will be maintained in a public GitHub repository and contributions are welcome and will at least be credited, but until an appropriate license can be determined all distribution rights are reserved and copyright Jarvus Innovations.
+
 ## Why Ext JS?
 - Provides full complement of extensible UI components
 - Provides an effective packaging system for sharing components with accompanying assets and CSS between projects
@@ -21,6 +23,3 @@ Welcome to the Jarvus Guide to Ext JS! This book is a work-in-progress and is in
 - Ext JS is released under dual licenses
 - When you need the commercial license
 - When you can use the open source license
-
-## About this book
-This book will be maintained in a public GitHub repository and contributions are welcome and will at least be credited, but until an appropriate license can be determined all distribution rights are reserved and copyright Jarvus Innovations.
