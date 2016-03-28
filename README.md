@@ -1,5 +1,7 @@
 # The Jarvus Guide to Ext JS
 
+Welcome to the Jarvus Guide to Ext JS! This book is a work-in-progress and is intended to provide a living guide to Jarvus Innovation's evolving best practices in building and maintaining large Ext JS projects.
+
 ## Why Ext JS?
 - Provides full complement of extensible UI components
 - Provides an effective packaging system for sharing components with accompanying assets and CSS between projects
