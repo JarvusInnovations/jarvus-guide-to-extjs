@@ -7,7 +7,7 @@
 * [Best Practices](best_practices/README.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
-   * [Require Where Instantiation Happens](best_practices/requires.md)
+   * [Require Where You Cause Instantiation](best_practices/requires.md)
    * [Write Compressable Code](best_practices/compressable_code.md)
    * [Configurable Connections](best_practices/connections.md)
    * [Community Hotfixes](best_practices/community_hotfixes.md)
