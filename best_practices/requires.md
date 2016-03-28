@@ -1,4 +1,4 @@
-# Require Where Instantiation is Caused
+# Require Where You Cause Instantiation
 
 - `autoCreate` refs in controllers
 - `xtype` or `type` in a class' config
