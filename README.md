@@ -7,4 +7,4 @@
 ## Licensing concerns
 
 ## About this book
-This book will be maintained in a public GitHub repository and contributions are welcome and will at least be credited, but until an appropriate license can be determined all distribution rights are reserved.
+This book will be maintained in a public GitHub repository and contributions are welcome and will at least be credited, but until an appropriate license can be determined all distribution rights are reserved and copyright Jarvus Innovations.
