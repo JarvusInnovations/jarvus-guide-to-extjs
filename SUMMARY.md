@@ -11,6 +11,7 @@
    * [Write Compressable Code](best_practices/compressable_code.md)
    * [Configurable Connections](best_practices/connections.md)
    * Community Hotfixes
+   * Keep the DOM Inside Components
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
