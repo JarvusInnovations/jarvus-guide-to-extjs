@@ -7,7 +7,7 @@
 * [Best Practices](best_practices/README.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
-   * Require Where Instantiation Happens
+   * [Require Where Instantiation Happens](best_practices/requires.md)
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
