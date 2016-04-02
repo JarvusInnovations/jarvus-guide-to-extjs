@@ -4,6 +4,7 @@
 * [Getting Started](getting_started/README.md)
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
+* Building Components
 * [Best Practices](best_practices/README.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
@@ -18,5 +19,4 @@
        * [Customizing Build](publishing/applications/customizing_build.md)
    * [Embedded Scripts](publishing/embedded_scripts.md)
 * [Research & Community](research_and_community/README.md)
-* Building Components
 
