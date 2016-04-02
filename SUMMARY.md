@@ -5,7 +5,7 @@
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
 * [Building Components](building_components/README.md)
-   * Widgets
+   * [Widgets](building_components/widgets.md)
    * Components
    * Containers
    * Layouts
