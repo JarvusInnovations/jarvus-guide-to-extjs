@@ -6,6 +6,7 @@
    * [Creating an Application](applications/creating.md)
 * [Building Components](building_components/README.md)
    * Widgets
+       * Layouts
    * Components
    * Containers
 * [Best Practices](best_practices/README.md)
