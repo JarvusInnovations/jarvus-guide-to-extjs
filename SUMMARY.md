@@ -7,8 +7,8 @@
 * [Building Components](building_components/README.md)
    * Widgets
    * Components
+   * Layouts
    * Containers
-* Layouts
 * [Best Practices](best_practices/README.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
