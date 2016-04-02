@@ -5,6 +5,7 @@
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
 * [Building Components](building_components/README.md)
+   * Widgets
 * [Best Practices](best_practices/README.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
