@@ -17,6 +17,7 @@
    * [Configurable Connections](best_practices/connections.md)
    * [Community Hotfixes](best_practices/community_hotfixes.md)
    * [Keep the DOM Inside Components](best_practices/dom_inside_components.md)
+   * Batch All The Things
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
