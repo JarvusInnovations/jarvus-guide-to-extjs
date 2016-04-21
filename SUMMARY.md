@@ -6,7 +6,7 @@
    * Class System
    * Config System
    * Config Objects and Factories
-   * HTML Element Manipulation
+   * DOM Element Manipulation
 * [Building Components](building_components/README.md)
    * [Widgets](building_components/widgets.md)
    * Components
