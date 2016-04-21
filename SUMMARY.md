@@ -5,6 +5,7 @@
 * Core Concepts
    * Class System
    * Config Objects and Factories
+   * Config System
 * [Building Components](building_components/README.md)
    * [Widgets](building_components/widgets.md)
    * Components
