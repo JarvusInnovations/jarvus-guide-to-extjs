@@ -17,6 +17,7 @@ See also `Ext.data.proxy.SessionStorage`
 
 
 ## Building your own proxy
+Use custom proxy classes via `xclass` or by assigning a `proxy.*` alias to the class.
 
 ### Reuse configuration
 You can simply extend one of the existing configurable types 
