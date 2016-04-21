@@ -17,7 +17,7 @@
 * Building Data Models
    * Models
    * Stores
-   * Proxies
+   * [Proxies](data/proxies.md)
    * Custom Connections
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
