@@ -8,6 +8,7 @@
    * Config Objects and Factories
    * DOM Element Manipulation
    * DOM Element Generation
+   * XHR Requests
 * [Building Components](building_components/README.md)
    * [Widgets](building_components/widgets.md)
    * Components
