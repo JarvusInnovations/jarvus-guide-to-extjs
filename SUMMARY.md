@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Getting Started](getting_started/README.md)
+* Core Concepts
 * [Building Components](building_components/README.md)
    * [Widgets](building_components/widgets.md)
    * Components
@@ -24,5 +25,4 @@
        * [Customizing Build](publishing/applications/customizing_build.md)
    * [Embedded Scripts](publishing/embedded_scripts.md)
 * [Research & Community](research_and_community/README.md)
-* Core Concepts
 
