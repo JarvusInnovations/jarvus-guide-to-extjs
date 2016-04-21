@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Getting Started](getting_started/README.md)
 * Core Concepts
+   * Class System
 * [Building Components](building_components/README.md)
    * [Widgets](building_components/widgets.md)
    * Components
