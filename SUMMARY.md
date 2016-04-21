@@ -16,6 +16,7 @@
    * Layouts
 * Building Data Models
    * Models
+   * Stores
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
 * [Best Practices](best_practices/README.md)
