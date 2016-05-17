@@ -38,5 +38,5 @@
 * [Research & Community](research_and_community/README.md)
 * [Managing Framework Bugs](framework_bugs/README.md)
    * [Using a Hotfixes Package](framework_bugs/hotfixes_package.md)
-   * Identifying a Framework Bug
+   * [Identifying a Framework Bug](framework_bugs/identifying_bug.md)
 
