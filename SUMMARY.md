@@ -40,4 +40,5 @@
    * [Using a Hotfixes Package](framework_bugs/hotfixes_package.md)
    * [Identifying a Bug](framework_bugs/identifying.md)
    * Reporting a Bug
+   * Fixing a Bug
 
