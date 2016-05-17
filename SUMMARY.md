@@ -37,4 +37,5 @@
    * [Embedded Scripts](publishing/embedded_scripts.md)
 * [Research & Community](research_and_community/README.md)
 * [Managing Framework Bugs](framework_bugs/README.md)
+   * Adding a Hotfixes package to your application
 
