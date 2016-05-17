@@ -36,5 +36,5 @@
        * [Customizing Build](publishing/applications/customizing_build.md)
    * [Embedded Scripts](publishing/embedded_scripts.md)
 * [Research & Community](research_and_community/README.md)
-* Managing Framework Bugs
+* [Managing Framework Bugs](framework_bugs/README.md)
 
