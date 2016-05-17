@@ -39,6 +39,6 @@
 * [Managing Framework Bugs](framework_bugs/README.md)
    * [Using a Hotfixes Package](framework_bugs/hotfixes_package.md)
    * [Identifying a Bug](framework_bugs/identifying.md)
-   * Reporting a Bug
+   * [Reporting a Bug](framework_bugs/reporting.md)
    * [Fixing a Bug](framework_bugs/fixing.md)
 
