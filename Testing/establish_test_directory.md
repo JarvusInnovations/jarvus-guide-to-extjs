@@ -1,12 +1,12 @@
 # Establish Testing Directory
 
-Navigate to the application's sencha-workspace folder and make a directory called tests:
+Navigate to your application's Sencha Cmd Workspace folder and make a directory called tests:
 ```
 cd /path/to/sencha-workspace/
 mkdir tests
 ```
 
-You should now have a tests folder in your app's sencha-workspace. This folder will serve as the root of all our testing code and the location of the siesta framework. Download the latest version of Siesta-lite library here: [www.bryntum.com/products/siesta/download-lite/](www.bryntum.com/products/siesta/download-lite/)
+You should now have a tests folder in your application's Sencha Cmd Workspace. This folder will serve as the root of all our testing code and the location of the Siesta framework. Download the latest version of Siesta-lite library here: [www.bryntum.com/products/siesta/download-lite/](www.bryntum.com/products/siesta/download-lite/)
 
 Once your download finishes, extract the zip file and move the siesta folder into the tests directory you just made. In this folder there are some examples we don't need. Go ahead and delete them:
 ```bash
@@ -16,7 +16,7 @@ rm Changes
 # IF Changes file exists
 ```
 
-Now we want to create our Testing Harness. Create a index.html & index.js files in the tests/ folder:
+Now we want to create our Siesta testing harness. Create a index.html & index.js files in the tests/ folder:
 ```bash
 touch index.html
 touch index.js
@@ -53,18 +53,18 @@ Now we can configure our harness in our index.js file:
 var harness = new Siesta.Harness.Browser.ExtJS();
 
 harness.configure({
-    title: 'Spark Classroom Student Tests'
+    title: 'My Example App Tests'
 });
 
 harness.start(
     {
-        group: 'SparkClassroomStudent tests',
+        group: 'MyExampleApp tests',
         preload: [
             '../ext-6.0.0.640/build/ext-all.js',
         ],
         items: [
           // array of your test scripts
-          // '../SparkClassroomStudent/010_sanity.t.js'
+          // '../MyExampleApp/010_sanity.t.js'
         ]
     }
 );
