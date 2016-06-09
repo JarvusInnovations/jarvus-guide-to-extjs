@@ -36,7 +36,6 @@
        * [Customizing Build](publishing/applications/customizing_build.md)
    * [Embedded Scripts](publishing/embedded_scripts.md)
 * [Testing](testing/README.md)
-   * [Introduction](testing/introduction.md)
    * [Establish Test Directory](testing/establish_test_directory.md)
 * [Research & Community](research_and_community/README.md)
 * [Managing Framework Bugs](framework_bugs/README.md)
