@@ -10,4 +10,8 @@ cd ~/Repositories/my-project
 git init
 ```
 
-## Step 2: Initialize sencha workspace
+## Step 2: Initialize Sencha workspace
+
+
+## Step 3: Add Sencha framework to repository
+
