@@ -10,3 +10,4 @@ cd ~/Repositories/my-project
 git init
 ```
 
+## Step 2: Initialize sencha workspace
