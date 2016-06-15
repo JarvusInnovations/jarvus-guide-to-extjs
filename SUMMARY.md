@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Getting Started](getting_started/README.md)
-   * Setup workspace
+   * [Setup workspace](getting_started/setup_workspace.md)
 * Core Concepts
    * Class System
    * Config System
