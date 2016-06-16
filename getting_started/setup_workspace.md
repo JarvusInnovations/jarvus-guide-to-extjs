@@ -43,7 +43,7 @@ Used command:
 
 Again, you should commit the results of the command alongside documentation of the command.
 
-## Step 4: Add hotfixes package
+## Step 4: Add hotfixes package (optional)
 
 As with adding a framework to the project's workspace, Git Submodules are a great way to add packages to the workspace as well. In this example we will add the community hotfixes package maintained by [Jarvus Innovations](http://jarv.us). This package (when required by your app) will apply community-reviewed hotfixes for known issues in your current framework version — saving you time and headaches fighting battles that have already been won.
 
