@@ -40,3 +40,5 @@ Used command:
 
     git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git sencha-workspace/ext-6.0.1.250'
 ```
+
+Again, you should commit the results of the command alongside documentation of the command.
