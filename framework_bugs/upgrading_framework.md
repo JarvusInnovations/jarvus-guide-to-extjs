@@ -18,6 +18,8 @@ If a branch is available, check it out and update the submodule configuration to
 git checkout ext/6/0/1/250
 cd ../../../
 git config -f ./.gitmodules submodule.jarvus-hotfixes.branch ext/6/0/1/250
+git add ./.gitmodules ./sencha-workspace/packages/jarvus-hotfixes
+git commit -m 'Switch jarvus-hotfixes package submodule to ext/6/0/1/250 branch'
 ```
 
 If a branch is not available, fork the most recent framework branch that is available and review each hotfix.
