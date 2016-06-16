@@ -13,3 +13,23 @@ Submodules are a great way to add Sencha frameworks and packages to your project
 ### Switching Existing Framework
 
 If you generated your application with Sencha CMD it may have copied a minimal framework tree into your app or workspace. These are safe to replace with the full framework trees provided by any archive distributed by Sencha or mirrors of such checked into git.
+
+As with any change to your project you want to start from a clean working tree. It is best to make the change entirely in one discreet commit so that each commit in your history is fully functional, and the commit for switching the framework to a submodule can be easily merged between branches.
+
+If you've previously used `.gitignore` patterns to exclude frameworks from version control you'll want to start your commit by deleting any such patterns. This command run from the root of your project's repository may help you find them:
+
+```bash
+grep -H ext `find . -name ".gitignore"`
+```
+
+If you were ignoring the framework and not tracking it in your repository then you now just need to delete the files from your working tree:
+
+```bash
+rm -R ./sencha-workspace/ext-6.0.0.640/
+```
+
+Otherwise, if you *were* tracking the framework's files in your repository you'll need to use git's `rm` command instead to both remove the files from your working tree **and** mark them for deletion in your commit:
+
+```bash
+git rm -r ./sencha-workspace/ext-6.0.0.640/
+```
