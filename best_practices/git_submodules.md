@@ -6,4 +6,6 @@ The benefit of using submodules vs just copying the repository into your tree ma
 
 From the perspective of your project's git repository, the path in your tree where the submodule is mounted just looks like a text file containing a commit hash. When you `cd` into the submodules directory with your shell or open it with a GUI application, git will behave as if you were in that other repository. If you make changes to any files within the submodule you need to commit and push them to the submodule repository first. Whenever the `HEAD` commit for the submodule changes -- either from making a new commit, checking out a new branch, or pulling updates -- a change with the new commit hash shows up to be staged in the main project repository. The change to the submodule `HEAD` can be committed to your project's repository on its own, or logically bundled with other changes as you would any other edit.
 
+## Using Submodules in your Sencha Workspace
+
 Submodules are a great way to add Sencha frameworks and packages to your project.
