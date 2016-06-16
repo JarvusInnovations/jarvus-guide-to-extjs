@@ -28,10 +28,11 @@ Every hotfix should include a link to a Sencha Fiddle that demonstrates the issu
 The hotfix should also include a link to a forum post reporting the issue. Check if the issue's thread was marked by Sencha as fixed as-of a given framework release. If the bug is fixed, delete the hotfix and make a commit noting your findings in the extended message:
 
 ```bash
-# git rm ...
-# git commit -m 'Remove hotfix for fixed issue
+cd ./sencha-workspace/packages/jarvus-hotfixes
+git rm overrides/data/field/FieldValidate.js
+git commit -m 'Remove FieldValidate hotfix
 
-Fiddle tests pass and Sencha reported fixed in ext-... on ...'
+Marked as resolved in the forum as-of ext-6.0.1.250. Verified via Fiddle'
 ```
 
 If the issue remains in the new framework version, the hotfix may need to be updated. Compare the overridden framework class between the two framework versions:
