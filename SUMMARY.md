@@ -44,4 +44,5 @@
    * [Identifying a Bug](framework_bugs/identifying.md)
    * [Reporting a Bug](framework_bugs/reporting.md)
    * [Fixing a Bug](framework_bugs/fixing.md)
+   * Upgrading to a new Framework Version
 
