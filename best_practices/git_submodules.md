@@ -16,11 +16,15 @@ If you generated your application with Sencha CMD it may have copied a minimal f
 
 As with any change to your project you want to start from a clean working tree. It is best to make the change entirely in one discreet commit so that each commit in your history is fully functional, and the commit for switching the framework to a submodule can be easily merged between branches.
 
+#### Step 1: Remove `.gitignore` Patterns
+
 If you've previously used `.gitignore` patterns to exclude frameworks from version control you'll want to start your commit by deleting any such patterns. This command run from the root of your project's repository may help you find them:
 
 ```bash
 grep -H ext `find . -name ".gitignore"`
 ```
+
+#### Step 2a: Delete Untracked Framework
 
 If you were ignoring the framework and not tracking it in your repository then you now just need to delete the files from your working tree:
 
@@ -28,8 +32,46 @@ If you were ignoring the framework and not tracking it in your repository then y
 rm -R ./sencha-workspace/ext-6.0.0.640/
 ```
 
+#### Step 2b: Delete Tracked Framework
+
 Otherwise, if you *were* tracking the framework's files in your repository you'll need to use git's `rm` command instead to both remove the files from your working tree **and** mark them for deletion in your commit:
 
 ```bash
 git rm -r ./sencha-workspace/ext-6.0.0.640/
+```
+
+#### Step 3: Add Submodule
+
+With the path for the framework in your working tree clear and ready to be tracked by git, you can now clone the framework as a submodule into the same path you had it before. In this example we will use a public repository maintained on GitHub by [Jarvus Innovations](http://jarv.us) that mirrors all the GPL releases of Sencha frameworks with convenient branch names added at varying levels of specificity. You could of course use any remote or local repository of your choosing, hosted privately or publically. If you're using a commercially-licensed framework you should commit it yourself to your own private repository to share between projects internally.
+
+```bash
+git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git ./sencha-workspace/ext-6.0.1.250
+```
+
+After the `submodule add` command completes successfully, two new changes will be staged to your pending commit. One adds the mount path, clone URL, and branch name to a file called `.gitmodules` in the root of your repository. The other adds a file at that mount point containing text like `Subproject commit bb1821f030041ac6d63079258515bdaf8672ce7a` marking the exact current `HEAD` for the branch. These two bits of information will give anyone cloning this commit all they need to both reproduce the same exact tree and have the means to exchange updates with the source repository.
+
+#### Step 4: Commit Changes
+
+At this point, your `git status` output should look something like this if your framework was previously kept untracked with a `.gitignore` pattern (trade the `.gitignore` modification with the deletion of the framework tree otherwise):
+
+```
+⚡ git status
+On branch develop
+Your branch is up-to-date with 'origin/develop'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   .gitignore
+	modified:   .gitmodules
+	new file:   sencha-workspace/ext-6.0.1.250
+```
+
+Take note of any changes you made manually in additional to documenting the command you ran to add the submodule in your commit message:
+
+```bash
+git commit -m 'Add ext-6.0.1.250 as submodule
+
+Removed .gitignore pattern manually and used command:
+
+    git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git ./sencha-workspace/ext-6.0.1.250'
 ```
