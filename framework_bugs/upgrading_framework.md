@@ -1,6 +1,6 @@
 # Upgrading to a new Framework Version
 
-When migrating an application to a new framework version, the branch of the hotfixes package used must change too.
+When migrating an application to a new framework version, any hotfixes package used must be reviewed and updated too.
 
 ## Checkout Remote Branch
 
