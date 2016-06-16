@@ -22,7 +22,7 @@ git add ./.gitmodules ./sencha-workspace/packages/jarvus-hotfixes
 git commit -m 'Switch jarvus-hotfixes package submodule to ext/6/0/1/250 branch'
 ```
 
-If a branch is not available, fork off a new branch from the most recent framework branch that is available and review each hotfix getting carried over.
+If a branch is not available, fork off a new branch from the most recent framework branch that is available and review each hotfix.
 
 ## Reviewing Hotfixes for a New Branch
 Every hotfix should include a link to a Sencha Fiddle that demonstrates the issue. First verify that you can see the original bug demonstrated by the Fiddle. Then switch the Fiddle to the new framework version and see if you can still reproduce it.
