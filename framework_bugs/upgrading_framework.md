@@ -52,8 +52,4 @@ cd ./sencha-workspace/packages/jarvus-hotfixes
 git log -p overrides/data/request/AjaxHeaders.js
 ```
 
-Repeat this process by first committing the new function body from the new framework. Then adapt the changes applied in the original hotfix to the new function body. Test the new hotfix by pasting the contents of the hotfix's .js file at the top of the Sencha Fiddle that demonstrates the bug under the new framework. Commit the new function body in a second commit, explaining any changes that needed to be made in the extended commit message:
-
-```bash
-#
-```
+Repeat this process by first committing the new function body from the new framework. Then adapt the changes applied in the original hotfix to the new function body. Test the new hotfix by pasting the contents of the hotfix's .js file at the top of the Sencha Fiddle that demonstrates the bug under the new framework. Commit the new function body in a second commit, explaining any changes that needed to be made in the extended commit message.
