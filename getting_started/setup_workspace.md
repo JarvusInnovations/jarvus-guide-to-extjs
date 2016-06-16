@@ -45,11 +45,10 @@ Again, you should commit the results of the command alongside documentation of t
 
 ## Step 4: Add hotfixes package *(optional)*
 
-As with adding a framework to the project's workspace, Git Submodules are a great way to add packages to the workspace as well. In this example we will add the community hotfixes package maintained by [Jarvus Innovations](http://jarv.us). This package (when required by your app) will apply community-reviewed hotfixes for known issues in your current framework version — saving you time and headaches fighting battles that have already been won.
+As with adding a framework to the project's workspace, Git Submodules are a great way to add packages to the workspace as well. In this example we will add the [community hotfixes package](https://github.com/JarvusInnovations/sencha-hotfixes) maintained by [Jarvus Innovations](http://jarv.us). This package (when required by your app) will apply community-reviewed hotfixes for known issues in your current framework version — saving you time and headaches fighting battles that have already been won.
 
 ```bash
 git submodule add -b ext/6/0/1/250 --name jarvus-hotfixes https://github.com/JarvusInnovations/sencha-hotfixes.git ./sencha-workspace/packages/jarvus-hotfixes
-
 git commit -m 'Add jarvus-hotfixes package as submodule
 
 Used command:
