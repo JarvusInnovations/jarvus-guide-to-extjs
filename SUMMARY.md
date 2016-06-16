@@ -23,6 +23,7 @@
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
    * [Upgrading an Application's Framework](applications/upgrading_framework.md)
+* Git Submodules
 * [Best Practices](best_practices/README.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
@@ -32,7 +33,6 @@
    * [Community Hotfixes](best_practices/community_hotfixes.md)
    * [Keep the DOM Inside Components](best_practices/dom_inside_components.md)
    * [Batch All The Things](best_practices/batching.md)
-* Git Submodules
 * [Using and Sharing Packages](packages/README.md)
 * [Publishing](publishing/README.md)
    * [Applications](publishing/applications.md)
