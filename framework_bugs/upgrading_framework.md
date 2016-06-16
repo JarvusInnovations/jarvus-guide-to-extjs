@@ -4,7 +4,7 @@ When migrating an application to a new framework version, any hotfixes package u
 
 ## Checkout Remote Branch
 
-First, check if your upstream source for the hotfixes package already has a new branch for this framework version. In this example we're using Jarvus' hotfixes package and upgrading an app from ext-6.0.0.640 to 6.0.1.250:
+First, check if your upstream source for the hotfixes package already has a new branch for this framework version. In this example we're using Jarvus' hotfixes package and upgrading an app from ext-6.0.0.640 to ext-6.0.1.250:
 
 ```bash
 cd ./sencha-workspace/packages/jarvus-hotfixes
@@ -22,7 +22,7 @@ git add ./.gitmodules ./sencha-workspace/packages/jarvus-hotfixes
 git commit -m 'Switch jarvus-hotfixes package submodule to ext/6/0/1/250 branch'
 ```
 
-If a branch is not available, fork the most recent framework branch that is available and review each hotfix.
+If a branch is not available, fork off a new branch from the most recent framework branch that is available and review each hotfix for removal or updating.
 
 ## Reviewing Hotfixes for a New Branch
 Every hotfix should include a link to a Sencha Fiddle that demonstrates the issue. First verify that you can see the original bug demonstrated by the Fiddle. Then switch the Fiddle to the new framework version and see if you can still reproduce it.
