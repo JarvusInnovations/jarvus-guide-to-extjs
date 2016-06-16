@@ -23,8 +23,8 @@
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
    * [Upgrading an Application's Framework](applications/upgrading_framework.md)
-* Git Submodules
 * [Best Practices](best_practices/README.md)
+   * Git Submodules
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
    * [Require Where You Cause Instantiation](best_practices/requires.md)
