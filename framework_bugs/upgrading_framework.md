@@ -39,7 +39,10 @@ If the issue remains in the new framework version, the hotfix may need to be upd
 
 ```bash
 cd ./sencha-workspace/ext-6.0.1.250
-git log -p packages/core/src/data/request/Ajax.js
+# use simple command-line diff:
+git diff origin/6.0.0.640...origin/6.0.1.250 packages/core/src/data/request/Ajax.js
+# use configured diff tool:
+git difftool origin/6.0.0.640 origin/6.0.1.250 packages/core/src/data/request/Ajax.js
 ```
 
 If the hotfix involves copying the body of a framework version to apply some internal changes, it needs to be updated and the fix manually re-applied. First, check the history of the hotfix file. It's originally implementation should have been spread across two commits: one copying the overridden method body as-is from the framework and a second applying the fix for the issue.
