@@ -38,14 +38,14 @@ If the issue remains in the new framework version, the hotfix may need to be upd
 
 ```bash
 cd ./sencha-workspace/ext-6.0.1.250
-git diff # TODO: finish
+git log -p packages/core/src/data/request/Ajax.js
 ```
 
 If the hotfix involves copying the body of a framework version to apply some internal changes, it needs to be updated and the fix manually re-applied. First, check the history of the hotfix file. It's originally implementation should have been spread across two commits: one copying the overridden method body as-is from the framework and a second applying the fix for the issue.
 
 ```bash
-# show history of hotfix
-# show diff of fix
+cd ./sencha-workspace/packages/jarvus-hotfixes
+git log -p overrides/data/request/AjaxHeaders.js
 ```
 
 Repeat this process by first committing the new function body from the new framework. Then adapt the changes applied in the original hotfix to the new function body. Test the new hotfix by pasting the contents of the hotfix's .js file at the top of the Sencha Fiddle that demonstrates the bug under the new framework. Commit the new function body in a second commit, explaining any changes that needed to be made in the extended commit message:
