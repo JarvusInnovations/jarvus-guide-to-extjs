@@ -25,6 +25,7 @@ git commit -m 'Switch jarvus-hotfixes package submodule to ext/6/0/1/250 branch'
 If a branch is not available, fork off a new branch from the most recent framework branch that is available and review each hotfix.
 
 ## Reviewing Hotfixes for a New Branch
+
 Every hotfix should include a link to a Sencha Fiddle that demonstrates the issue. First verify that you can see the original bug demonstrated by the Fiddle. Then switch the Fiddle to the new framework version and see if you can still reproduce it.
 
 The hotfix should also include a link to a forum post reporting the issue. Check if the issue's thread was marked by Sencha as fixed as-of a given framework release. If the bug is fixed, delete the hotfix and make a commit noting your findings in the extended message:
