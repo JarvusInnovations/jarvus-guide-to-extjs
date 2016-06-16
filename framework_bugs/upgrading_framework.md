@@ -48,11 +48,11 @@ git diff origin/6.0.0.640...origin/6.0.1.250 packages/core/src/data/request/Ajax
 git difftool origin/6.0.0.640 origin/6.0.1.250 packages/core/src/data/request/Ajax.js
 ```
 
-If the hotfix involves copying the body of a framework method to apply some internal changes, the copied method body needs to be updated and the fix manually re-applied. First, check the history of the hotfix file. Its original implementation should have been spread across two commits: one copying the overridden method body as-is from the framework and a second applying the fix for the issue.
+If the hotfix involves copying the body of a framework method to apply some internal changes, the copied method body needs to be updated and the fix manually re-applied. First, check the history of the hotfix file. Its original implementation should have been spread across two commits: one copying the overridden method body as-is from the framework, and a second applying the fix for the issue.
 
 ```bash
 cd ./sencha-workspace/packages/jarvus-hotfixes
 git log -p overrides/data/request/AjaxHeaders.js
 ```
 
-Repeat this process by first committing the new function body from the new framework. Then adapt the changes applied in the original hotfix to the new function body. Test the new hotfix by pasting the contents of the hotfix's .js file at the top of the Sencha Fiddle that demonstrates the bug under the new framework. Commit the new function body in a second commit, explaining any changes that needed to be made in the extended commit message.
+Repeat this process by first committing the new function body from the new framework. Then adapt the changes applied in the original hotfix to the new function body. Test the new hotfix by pasting the contents of the hotfix's source at the top of the Sencha Fiddle that demonstrates the bug under the new framework. Commit the new function body in a second commit, explaining any changes that needed to be made in the extended commit message.
