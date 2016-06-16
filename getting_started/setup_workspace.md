@@ -28,17 +28,21 @@ Every time you modify your project with a shell command, start from a clean work
 
 ## Step 3: Add Sencha framework to repository
 
-Git Submodules are the best way to add frameworks to your project workspace. Using a submodule ensures that every clone of your repository uses the exact same code top-to-bottom. Without this you will encounter different machines and different developers getting different results from the *same code*.
+[Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) are the best way to add frameworks to your project workspace. Using a submodule ensures that every clone of your repository uses the exact same code top-to-bottom. Without this you will encounter different machines and different developers getting different results from the *same code*.
 
 In this example we are copying the latest GPL release of the ext framework as of this writing, but you may use any git-based source. If you use a commercially-licensed version of the framework, commit the extracted framework to a private repository of your own. Alternatively you may commit the framework directly to your project repository and control its access accordingly.
 
 ```bash
-git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git sencha-workspace/ext-6.0.1.250
+git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git ./sencha-workspace/ext-6.0.1.250
 git commit -m 'Add ext-6.0.1.250 as submodule
 
 Used command:
 
-    git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git sencha-workspace/ext-6.0.1.250'
+    git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git ./sencha-workspace/ext-6.0.1.250'
 ```
 
 Again, you should commit the results of the command alongside documentation of the command.
+
+## Step 4: Add hotfixes package
+
+As with adding a framework to the project's workspace, Git Submodules are a great way to add packages to the workspace as well.
