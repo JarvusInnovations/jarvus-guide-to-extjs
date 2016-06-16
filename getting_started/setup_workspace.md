@@ -30,7 +30,7 @@ Every time you modify your project with a shell command, start from a clean work
 
 Git Submodules are the best way to add frameworks to your project workspace. Using a submodule ensures that every clone of your repository uses the exact same code top-to-bottom. Without this you will encounter different machines and different developers getting different results from the *same code*.
 
-In this example we are copying the latest GPL release of the ext framework as of this writing, but you may use any git-based source. If you use a commercially-licensed version of the framework, commit it as-is to a private repository of your own separate from the project. Alternatively you may commit the framework directly to your project repository.
+In this example we are copying the latest GPL release of the ext framework as of this writing, but you may use any git-based source. If you use a commercially-licensed version of the framework, commit the extracted framework to a private repository of your own. Alternatively you may commit the framework directly to your project repository.
 
 ```bash
 git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git sencha-workspace/ext-6.0.1.250
