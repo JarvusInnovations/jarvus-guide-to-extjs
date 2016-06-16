@@ -28,3 +28,13 @@ Every time you modify your project with a shell command, start from a clean work
 
 ## Step 3: Add Sencha framework to repository
 
+Git Submodules are the best way to add frameworks to your project workspace. Using a submodule ensures that every clone of your repository uses the exact same code top-to-bottom. Without this you will encounter different machines and different developers getting different results from the *same code*.
+```bash
+git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git sencha-workspace/ext-6.0.1.250
+git add --all
+git commit -m 'Add ext-6.0.1.250 as submodule
+
+Used command:
+
+    git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git sencha-workspace/ext-6.0.1.250'
+```
