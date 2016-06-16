@@ -1,2 +1,5 @@
 # Git Submodules
 
+[Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) allow you to clone other git repositories anywhere within your project's repository. You can check out any branch from the submodule's repository, but you get the entire contents of that branch added to your tree as-is -- you can't pick-and-choose what files and directories get pulled. The benefit of using submodules vs just copying the repository into your tree manually is that with submodules the files don't actually get copied into your repository. Instead, only the configuration for cloning the repository and the hash of the commit you want to use get saved into your repository. This ensures that any developer checking out a given commit within your project's repository will always get the same exact version of the submodule's files too as the author of that commit had them.
+
+Submodules are a great way to add Sencha frameworks and packages to your project.
