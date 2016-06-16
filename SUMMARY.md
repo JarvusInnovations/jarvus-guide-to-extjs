@@ -22,6 +22,7 @@
    * Custom Connections
 * [Building Applications](applications/README.md)
    * [Creating an Application](applications/creating.md)
+   * Upgrading an Application's Framework
 * [Best Practices](best_practices/README.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
    * [Route to Every Destination](best_practices/routes.md)
