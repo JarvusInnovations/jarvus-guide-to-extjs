@@ -10,4 +10,6 @@ From the perspective of your project's git repository, the path in your tree whe
 
 Submodules are a great way to add Sencha frameworks and packages to your project.
 
-### Using 
+### Switching Existing Framework
+
+If you generated your application with Sencha CMD it may have copied a minimal framework tree into your app or workspace. These are safe to replace with the full framework trees provided by any archive distributed by Sencha or mirrors of such checked into git.
