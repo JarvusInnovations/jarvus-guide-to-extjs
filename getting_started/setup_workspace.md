@@ -34,7 +34,6 @@ In this example we are copying the latest GPL release of the ext framework as of
 
 ```bash
 git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git sencha-workspace/ext-6.0.1.250
-git add --all
 git commit -m 'Add ext-6.0.1.250 as submodule
 
 Used command:
