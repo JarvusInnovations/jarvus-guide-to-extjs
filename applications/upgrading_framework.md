@@ -78,7 +78,9 @@ git commit -m 'Update MyApplication framework to ext-6.0.1.250'
 
 ## Step 5: Upgrade Overrides and Packages
 
+If your application contains any overrides for framework classes, review them for compatibility and relevance to the new framework version. For all external packages in your workspace, check if updates or new branches are available for the new framework version.
 
+Ideally, your application does not contain any framework overrides outside of a supported hotfixes package.
 
 ## Step 6: Scrub Old Framework
 
