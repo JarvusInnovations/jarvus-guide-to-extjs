@@ -35,7 +35,7 @@ Before deleting the old framework, add the new one to your workspace and test ou
 git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git ./sencha-workspace/ext-6.0.1.250
 git commit -m 'Add ext-6.0.1.250 as submodule
 
-Removed .gitignore pattern manually and used command:
+Used command:
 
     git submodule add --name ext-6.0.1.250 -b 6.0.1.250 https://github.com/JarvusInnovations/extjs.git ./sencha-workspace/ext-6.0.1.250'
 ```
@@ -53,4 +53,8 @@ As setup by Sencha CMD, `ext.dir` is set at the workspace level for all your app
 ## Step 5: Scrub Old Framework
 
 Once all applications in your workspace have been migrated to and tested with the new framework, you may remove the old framework from your workspace. At this point you want to also update the `ext.dir` setting at the workspace level to keep it having a valid value and for any future use of `sencha generate` commands.
+
+```bash
+vim ./sencha-workspace/.sencha/workspace/sencha.cfg
+```
 
