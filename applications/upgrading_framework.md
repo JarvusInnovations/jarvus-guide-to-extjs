@@ -15,7 +15,7 @@ sencha app upgrade --noframework
 
 The `--noframework` option tells Sencha CMD to only upgrade the application's build files. You will be upgrading the framework by reconfiguring the submodule instead of letting CMD download or copy it.
 
-Review all changes made by the upgrade command, paying close attention to any made to `app.json` or `sencha.cfg` while mostly glossing over the rest. Commit all the changes made by the upgrade, documenting how you ran it:
+Review all changes made by the upgrade command, paying close attention to any made to `app.json` or `sencha.cfg` while mostly glossing over the rest. Unless Sencha CMD reported merge conflicts that need to be resolved, avoid making any changes until a follow-up commit. Commit all the changes made by the upgrade, documenting how you ran it:
 
 ```bash
 git add --all
