@@ -27,6 +27,6 @@ Used commands:
     sencha app upgrade --noframework'
 ```
 
-## Step 3: Check Out the New Framework
+## Step 3: Add the New Framework
 
 
