@@ -26,3 +26,7 @@ Used commands:
     cd ./sencha-workspace/MyApplication/
     sencha app upgrade --noframework'
 ```
+
+## Step 3: Check Out the New Framework
+
+
