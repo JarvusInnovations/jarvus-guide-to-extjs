@@ -68,8 +68,13 @@ ext.dir=${workspace.dir}/${app.framework}-${app.framework.version}
 
 If you got the idea of setting `ext.dir` like this at the framework level -- good thinking but it won't work all the time since the `app.*` variables its based on aren't always available at the workspace level.
 
+Finally, attempt to build the application and verify that Sencha CMD reports using the correct version of the new framework near the beginning of the build process output.
 
-## Step 5: Scrub Old Framework
+## Step 5: Upgrade Overrides and Packages
+
+
+
+## Step 6: Scrub Old Framework
 
 Once all applications in your workspace have been migrated to and tested with the new framework, you may remove the old framework from your workspace. At this point you want to also update the `ext.dir` setting at the workspace level to keep it having a valid value and for any future use of `sencha generate` commands.
 
