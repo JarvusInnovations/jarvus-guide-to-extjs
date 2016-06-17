@@ -68,7 +68,13 @@ ext.dir=${workspace.dir}/${app.framework}-${app.framework.version}
 
 If you got the idea of setting `ext.dir` like this at the framework level -- good thinking but it won't work all the time since the `app.*` variables its based on aren't always available at the workspace level.
 
-Finally, attempt to build the application and verify that Sencha CMD reports using the correct version of the new framework near the beginning of the build process output.
+Finally, attempt to build the application and verify that Sencha CMD reports using the correct version of the new framework near the beginning of the build process output before committing the changes:
+
+```bash
+sencha app build
+git add --all
+git commit -m 'Update MyApplication framework to ext-6.0.1.250'
+```
 
 ## Step 5: Upgrade Overrides and Packages
 
