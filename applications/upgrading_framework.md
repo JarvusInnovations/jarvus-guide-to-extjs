@@ -47,3 +47,10 @@ To finish upgrading an application to a new framework version, two things must b
 1. Setting `app.framework.version` to the new framework version
 2. Getting `ext.dir` pointing to where that framework is on disk
 
+As setup by Sencha CMD, `ext.dir` is set at the workspace level for all your apps. Going forward you want to set it at the application level within `.sencha/app/sencha.cfg`. Setting `ext.dir` here will supercede any workspace-level setting, so you can leave the workspace's configuration alone and not interfere with any other apps in your workspace.
+
+
+## Step 5: Scrub Old Framework
+
+Once all applications in your workspace have been migrated to and tested with the new framework, you may remove the old framework from your workspace. At this point you want to also update the `ext.dir` setting at the workspace level to keep it having a valid value and for any future use of `sencha generate` commands.
+
