@@ -42,5 +42,8 @@ Removed .gitignore pattern manually and used command:
 
 ## Step 4: Reconfigure Application
 
-To finish upgrading an application to a new framework version, two things must be accomplished: setting `app.framework.version` to the new framework version, and getting `ext.dir` pointing at where that framework can be found on disk.
+To finish upgrading an application to a new framework version, two things must be accomplished: 
+
+1. Setting `app.framework.version` to the new framework version
+2. Getting `ext.dir` pointing to where that framework is on disk
 
