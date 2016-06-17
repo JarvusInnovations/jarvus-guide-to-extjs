@@ -49,6 +49,25 @@ To finish upgrading an application to a new framework version, two things must b
 
 As setup by Sencha CMD, `ext.dir` is set at the workspace level for all your apps. Going forward you want to set it at the application level within `.sencha/app/sencha.cfg`. Setting `ext.dir` here will supercede any workspace-level setting, so you can leave the workspace's configuration alone and not interfere with any other apps in your workspace.
 
+```bash
+cd ./sencha-workspace/MyApplication/
+
+# search for any references to old framework version
+grep -H "6.0.0.640" `find . -name "*.cfg" -o -name "*.json" ! -name "codegen.json" ! -name "bootstrap.*"`
+
+# set app.framework.version and ext.dir
+vim ./.sencha/app/sencha.cfg
+```
+
+To avoid having to write the framework version in two places, you can set `ext.dir` using variables like this and only have to update `app.framework.version` going forward:
+
+```
+app.framework.version=6.0.1.250
+ext.dir=${workspace.dir}/${app.framework}-${app.framework.version}
+```
+
+If you got the idea of setting `ext.dir` like this at the framework level -- good thinking but it won't work all the time since the `app.*` variables its based on aren't always available at the workspace level.
+
 
 ## Step 5: Scrub Old Framework
 
