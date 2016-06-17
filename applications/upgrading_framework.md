@@ -87,6 +87,12 @@ Additionally, for any 3rd party packages included in your workspace, check for a
 Once all applications in your workspace have been migrated to and tested with the new framework, you may remove the old framework from your workspace. At this point you want to also update the `ext.dir` setting at the workspace level to keep it having a valid value and for any future use of `sencha generate` commands.
 
 ```bash
+# update workspace-level ext.dir default value if present
 vim ./sencha-workspace/.sencha/workspace/sencha.cfg
+
+# remove submodule for old framework
+git rm ./sencha-workspace/ext-6.0.0.640
+
+git commit -m 'Remove ext-6.0.0.640 framework submodule'
 ```
 
