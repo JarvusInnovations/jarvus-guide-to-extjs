@@ -1,4 +1,4 @@
-# Setup workspace
+# Setup Workspace
 
 ## Step 1: Initialize git repository
 
