@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Getting Started](getting_started/README.md)
     * [Setup Workspace](getting_started/setup_workspace.md)
+    * Setup Tools
 * Core Concepts
     * Class System
     * Config System
