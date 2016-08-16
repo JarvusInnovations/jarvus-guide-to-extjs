@@ -1,13 +1,16 @@
 # Controllers
 
 ## Properties of a good controller
+
 - With the exception of one or two "global" controllers for each app that manage components that are always on the screen (for example one for the viewport and maybe a separate one for the main navigation system), each controller should handle a distinct and well-defined section of the app
 - The controller should be the cause of all that sections dependencies being pulled into the app runtime and the app builds. Commenting out the controller line should erase nearly all of that section's assets from being loaded or included in builds
 - The controller's only coupling with the outside world should be using `listen` to pick up events from the app or global controllers. Again it should be possible to comment out the controller and entirely suppress its section from the app without the app breaking beyond maybe some routes or buttons for entering its section becoming duds
 - Has minimal state -- in most cases views should be the holders of state and controllers just act on them. For example, if a user management section has a "currently selected user", store that as a config option on the highest container in which it makes sense (like the overall container for the user manager section), attach firing an event to the update handler in the view, and have the controller listen to that event and call the getter when needed. A controller designed like this won't care when suddenly the app allows for two instances of the user manager to be open.
 - Doesn't keep the same state in multiple places and have to deal with synchronizing them. Store state at its highest point of relevance, preferably in the view component hierarchy.
+- Declares all dependencies explicitely, using higher-order dependency structures like `models` and `stores` when available. Use the generated getters exclusively instead of calls like `Ext.getStore(...)` or `Ext.create(...)` -- these calls should stand out as implicit dependencies that need to be eliminated.
 
 ## Formatting and Organization
+
 - Two empty lines between sections
 - One empty line between methods or multiline properties
 - Has comments header that at least outlines its responsibilities
@@ -16,6 +19,7 @@
 - Config handlers, event handlers, and route handlers are in the same order as their declarations
 
 ## Preferred sections and order
+
 - `Ext.define` options
   - `extend`, `requires`, `alias`, etc
 - Custom `config` options for mutable controller state
