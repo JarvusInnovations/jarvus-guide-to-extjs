@@ -22,10 +22,10 @@
    * [Proxies](data/proxies.md)
    * Custom Connections
 * [Building Applications](applications/README.md)
+   * Lifecycle of an Application
    * [Creating an Application](applications/creating.md)
    * [Upgrading an Application's Framework](applications/upgrading_framework.md)
    * [Controllers](applications/controllers.md)
-   * Lifecycle of an Application
 * [Best Practices](best_practices/README.md)
    * [Git Submodules](best_practices/git_submodules.md)
    * [Minimize Causal Chains](best_practices/causal_chains.md)
