@@ -56,15 +56,15 @@ Used command:
     git submodule add -b ext/6/0/1/250 --name jarvus-hotfixes https://github.com/JarvusInnovations/sencha-hotfixes.git ./sencha-workspace/packages/jarvus-hotfixes'
 ```
 
-## Step 5: Add `.jshintrc` file *(optional)*
+## Step 5: Add `.eslintrc.js` file *(optional)*
 
-[A file named `.jshintrc`](https://github.com/jshint/jshint/blob/master/examples/.jshintrc) placed at the root of your Git repository or customized at the level of your `sencha-workspace` directory can document the coding style guidelines for the project. Editors and tools powered by JSHint can find and use these automatically on any machine the code is checked out to. This can help your project maintain consistent styling by ensuring all developers using capable editors see the same warning and error messages live while they work.
+[A file named `.eslintrc.js`](examples/.eslintrc.js) placed at the root of your Git repository or customized at the level of your `sencha-workspace` directory can document the coding style guidelines for the project. Editors and tools powered by ESLint can find and use these automatically on any machine the code is checked out to. This can help your project maintain consistent styling by ensuring all developers using capable editors see the same warning and error messages live while they work.
 
-Placing and maintaining these options in a central `.jshintrc` file deprecates the old style of inserting `/*jshint...*/` configuration snippets at the top of each source file. Those should be purged en masse from your source files once a `.jshintrc` file is in place.
+Placing and maintaining these options in a central `.eslintrc.js` file deprecates the old style of inserting `/*jshint...*/` configuration snippets at the top of each source file. Those should be purged en masse from your source files once a `.eslintrc.js` file is in place.
 
-### Editors knowns to support .jshintrc
+### Editors knowns to support .eslintrc.js
 
-- [Visual Studio Code](https://code.visualstudio.com/) with the [JSHint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)
+- [Visual Studio Code](https://code.visualstudio.com/) with the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ### Sample file for Sencha workspace
 
