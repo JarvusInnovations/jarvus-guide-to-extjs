@@ -8,7 +8,7 @@
 
 Any text editor can get the job done, but an important capability to look for is JavaScript inline syntax checking.
 
-Visual Studio Code is a great free and open-source option with built-in git integration and support for `.jshintrc`-powered JavaScript quality checking with its JSHint Extension.
+[Visual Studio Code](https://code.visualstudio.com/) is a great free and open-source option with built-in git integration and support for `.eslintrc.js`-powered JavaScript quality checking with its [ESLint Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
 
 ## Web Server
 
