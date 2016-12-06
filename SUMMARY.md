@@ -22,7 +22,7 @@
    * [Proxies](data/proxies.md)
    * Custom Connections
 * [Building Applications](applications/README.md)
-   * [Life cycle of an Application](applications/lifecycle.md)
+   * [Life Cycle of an Application](applications/lifecycle.md)
    * [Creating an Application](applications/creating.md)
    * [Upgrading an Application's Framework](applications/upgrading_framework.md)
    * [Controllers](applications/controllers.md)
