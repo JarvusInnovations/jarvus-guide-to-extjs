@@ -6,27 +6,29 @@ In this example, we'll be looking at the simpler project structure that results 
 
 ```
 workspace/MyApplication
-└───.sencha
-│   └───app
-└───app
-│   └───controller
-│   └───model
-│   └───store
-│   └───view
-│   └───Application.js
-└───resources
-└───sass
-│   └───etc
-│   └───src
-│   └───var
-│   └───config.rb
-└───app.js
-└───app.json
-└───bootstrap.css
-└───bootstrap.js
-└───bootstrap.json
-└───build.xml
-└───index.html
+├── app
+│   ├── Application.js
+│   ├── controller
+│   ├── model
+│   ├── store
+│   └── view
+├── app.js
+├── app.json
+├── bootstrap.css
+├── bootstrap.js
+├── bootstrap.json
+├── build.xml
+├── index.html
+├── resources
+├── sass
+│   ├── config.rb
+│   ├── etc
+│   ├── src
+│   └── var
+└── .sencha
+    └── app
+        ├── sencha.cfg
+        └── ...
 ```
 
 ## Phase 1: Loading
