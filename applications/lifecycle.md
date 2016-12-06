@@ -1,4 +1,4 @@
-# Life cycle of an Application
+# Life Cycle of an Application
 
 ## File Layout
 
