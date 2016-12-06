@@ -27,6 +27,7 @@ workspace/MyApplication
 │   └── var
 └── .sencha
     └── app
+        ├── Boot.js
         ├── sencha.cfg
         └── ...
 ```
