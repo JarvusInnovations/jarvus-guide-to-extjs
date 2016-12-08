@@ -66,7 +66,7 @@ app.framework.version=6.0.1.250
 ext.dir=${workspace.dir}/${app.framework}-${app.framework.version}
 ```
 
-If you got the idea of setting `ext.dir` like this at the framework level -- good thinking but it won't work all the time since the `app.*` variables its based on aren't always available at the workspace level.
+If you got the idea of setting `ext.dir` like this at the framework level -- good thinking but it won't work all the time since the `app.*` variables it's based on aren't always available at the workspace level.
 
 Finally, attempt to build the application and verify that Sencha CMD reports using the correct version of the new framework near the beginning of the build process output before committing the changes:
 
